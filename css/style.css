@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins,sans-serif;
+    font-weight: 200;
+}
+
+.container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.4rem;
+}
+.container .head-left a{
+    text-decoration: none;
+    color: white;
+}
+.container .head-right a{
+    text-decoration: none;
+    margin-left: 1.5rem;
+    color: white;
+    transition: 0.5s;
+    font-size: 1rem;
+}
+.container .head-right a:hover{
+    color: #c1bebe;
+}
+.container .head-left a{
+    font-size: 1.4rem;
+}
+.container .head-right a:last-child{
+    border: 1px solid #fff;
+    padding: 0.5rem;
+    color: #fff;
+}
+main{
+    width: 100%;
+    height: 39rem;
+}
+
+.general-container{
+    background-color: #0096ff;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+}
+.content-left span{
+    margin-top: 0.8rem;
+    display: block;
+}
+.content-left h1{
+    font-size: 3.6rem;
+    color: #fff;
+}
+.content-left p {
+    margin-top: 0.8rem;
+    text-align: justify;
+    width: 25rem;
+    font-weight: bolder;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 100;
+    opacity: 0.8;
+}
+.content-left{
+    margin-top: 8rem;
+}
+.container .content-left a{
+    margin-top: 1rem;
+    color: #fff;
+    display:  inline-block;
+    text-decoration: none;
+    background-color: rgb(15, 163, 15);
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 1.5rem;
+}
+.content-right .register-box p {
+    display: inline-block;
+    font-weight: 100;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.content-right .register-box input{
+    display:  block;
+    margin: auto;
+    font-size: 19px;
+    padding: 10px 0px;
+    padding-right: 133px;
+    margin-top: 1.5rem;
+    border: none;
+    background-color: #f5f8fa;
+}
+.content-right .register-box button{
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 0.750rem 9rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+    background-color: #167AF6;
+    color: #fff;
+}
+.content-right .register-box select{
+    display: block;
+    margin: auto;
+    font-size: 19px;
+    padding: 10px 0;
+    padding-right: 273px;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    border: none;
+    background-color: #f5f8fa;
+}
+.container-right .register-box button{
+    display: block;
+}
+
+.content-right .register-box{
+    margin-top: 2rem;
+    background-color: #fff;
+    width: 410px;
+    height: 425px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.social-links{
+    margin-top: 3rem;
+}

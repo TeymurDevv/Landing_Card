@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    background-color: #fff;
+    width: 800px;
+    height: 400px;
+    margin-top: 12.5%;
+    margin-left: 25%;
+    display: flex;
+}
+.img{
+    margin-left: 2.8rem;
+}
+.img img{
+    margin-top: 3rem;
+}
+.content-left{
+    background-color: #173A8C;
+    width: 312.32px;
+    height: 100%;
+}
+.content-left p{
+    color: #fff;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.content-left p:last-child{
+    font-size: 1.4rem;
+}
+.content-right{
+    width: 488.68px;
+    height: 100%;
+}
+.content-right .card-header{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.content-right .card-header p {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    letter-spacing: 10px;
+}
+.card-content{
+    display: flex;
+}
+.card-content-left{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.card-content-right{
+    margin-left: 4.4rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.card-content-right #phone-title{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.card-content-right #phone{
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.card-content-left #email-title{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.card-content-left #email{
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.social-links{
+    margin-top: 8.5rem;
+    text-align: center;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-around;
+}
+.social-links a{
+    font-size: 2rem;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #173A8C;
+    padding: 15px;
+}
